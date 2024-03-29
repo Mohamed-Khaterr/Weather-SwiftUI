@@ -11,6 +11,10 @@
 		870C1CB92BB6EA180026E4D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C1CB82BB6EA180026E4D7 /* ContentView.swift */; };
 		870C1CBB2BB6EA1B0026E4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870C1CBA2BB6EA1B0026E4D7 /* Assets.xcassets */; };
 		870C1CBE2BB6EA1B0026E4D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870C1CBD2BB6EA1B0026E4D7 /* Preview Assets.xcassets */; };
+		870C1CC62BB7041B0026E4D7 /* MainWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C1CC52BB7041B0026E4D7 /* MainWeather.swift */; };
+		870C1CC82BB704C60026E4D7 /* WeatherDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C1CC72BB704C60026E4D7 /* WeatherDayCell.swift */; };
+		870C1CCA2BB707F10026E4D7 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C1CC92BB707F10026E4D7 /* WeatherButton.swift */; };
+		870C1CCC2BB70F220026E4D7 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870C1CCB2BB70F220026E4D7 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		870C1CB82BB6EA180026E4D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		870C1CBA2BB6EA1B0026E4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		870C1CBD2BB6EA1B0026E4D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		870C1CC52BB7041B0026E4D7 /* MainWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWeather.swift; sourceTree = "<group>"; };
+		870C1CC72BB704C60026E4D7 /* WeatherDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayCell.swift; sourceTree = "<group>"; };
+		870C1CC92BB707F10026E4D7 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		870C1CCB2BB70F220026E4D7 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 				870C1CC42BB6EEA90026E4D7 /* Resource */,
 				870C1CB62BB6EA180026E4D7 /* WeatherApp.swift */,
 				870C1CB82BB6EA180026E4D7 /* ContentView.swift */,
+				870C1CC52BB7041B0026E4D7 /* MainWeather.swift */,
+				870C1CC72BB704C60026E4D7 /* WeatherDayCell.swift */,
+				870C1CC92BB707F10026E4D7 /* WeatherButton.swift */,
+				870C1CCB2BB70F220026E4D7 /* Weather.swift */,
 				870C1CBC2BB6EA1B0026E4D7 /* Preview Content */,
 			);
 			path = Weather;
@@ -146,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				870C1CB92BB6EA180026E4D7 /* ContentView.swift in Sources */,
+				870C1CC82BB704C60026E4D7 /* WeatherDayCell.swift in Sources */,
+				870C1CC62BB7041B0026E4D7 /* MainWeather.swift in Sources */,
 				870C1CB72BB6EA180026E4D7 /* WeatherApp.swift in Sources */,
+				870C1CCC2BB70F220026E4D7 /* Weather.swift in Sources */,
+				870C1CCA2BB707F10026E4D7 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
